@@ -3,7 +3,7 @@ Proposal repository
 
 ![Wireframe](./Wireframe.png)
 
-![Wireframe](./Color-palette.png)
+![Color-palette](./Color-palette.png)
 
 Payne's Gray: #546A76
 Cadet Gray: #88A0A8
