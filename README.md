@@ -1,7 +1,7 @@
 # proposal-profile
 Proposal repository
 
-![Wireframe](./Wireframe.png)
+![Wireframe](./wireframe-v2.png)
 
 ![Color-palette](./Color-palette-v2.png)
 
