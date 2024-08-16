@@ -3,10 +3,10 @@ Proposal repository
 
 ![Wireframe](./Wireframe.png)
 
-![Color-palette](./Color-palette.png)
+![Color-palette](./Color-palette-v2.png)
 
-Payne's Gray: #546A76
-Cadet Gray: #88A0A8
-Celadon: #B4CEB3
-Timerwolf: #DBD3C9
-Mimi Pink: #FAD4D8
+Oxford Blue: #011638
+Charcoal: #364156
+Silver: #CDCDCD
+Honeydue: #DFF8EB
+Cal Poly Green: #214E34
