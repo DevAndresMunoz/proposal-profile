@@ -1,0 +1,38 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    background-color: aqua;
+    gap: 0px 0px;
+}
+
+.second-card {
+    grid-column: span 2;
+    gap: 0px 0px;  
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.nav-bar {
+    background-color: red;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 80px;
+}
+
+#nav-spacer {
+    background-color: green;
+    height: 80px;
+}
+
+#donate-button-container {
+    background-color: blue;
+}
+
+#donate-spacer {
+    background-color: blueviolet;
+}
