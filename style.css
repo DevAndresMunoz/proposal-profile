@@ -18,15 +18,15 @@
 
 .nav-bar {
     background-color: red;
-    padding: 0;
+    padding: 10px 10px 10px 10px;
     border: 0;
     margin: 0;
-    height: 80px;
+    height: 40px;
 }
 
 #nav-spacer {
     background-color: green;
-    height: 80px;
+    height: 30px;
 }
 
 #donate-button-container {
@@ -35,4 +35,22 @@
 
 #donate-spacer {
     background-color: blueviolet;
+}
+
+.nav-bar > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
 }
