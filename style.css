@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Raleway;
+    font-family: Lato;
 }
 
 #grid-container {
@@ -31,6 +31,7 @@ body {
     height: 40px;
     width: 100%;
     color: white;
+    font-size: 15pt;
 }
 
 #nav-spacer {
@@ -67,3 +68,27 @@ li a {
     text-decoration: none;
     color: inherit;
 }
+
+#content {
+    text-align: center;
+}
+
+#name-wrapper {
+    margin: 50px;
+    font-size: 25pt;
+}
+
+#pet-info-list {
+    display: inline-block;
+    width: 50%;
+}
+
+#pet-info-description {
+    display: inline-block;
+    width: 50%; 
+}
+
+footer {
+    text-align: center;
+}
+
