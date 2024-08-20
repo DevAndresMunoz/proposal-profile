@@ -4,19 +4,6 @@ body {
     font-family: Lato;
 }
 
-#grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
-    background-color: #9D71E8;
-    gap: 0px 0px;
-}
-
-.second-card {
-    grid-column: span 2;
-    gap: 0px 0px;  
-}
-
 .logo {
     height: 100px;
     gap: 0px 0px;
