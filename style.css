@@ -4,51 +4,36 @@ body {
     font-family: Lato;
 }
 
-
-
-.nav-bar {
-    padding: 25px 35px 10px 35px;
-    border: 0;
-    margin: 0;
-    height: 40px;
-    width: 100%;
-    color: black;
-    font-size: 15pt;
+nav {
+    background-color: #9D71E8;
 }
 
-#nav-spacer {
-    height: 30px;
+img.logo {
+    height: 120px;
 }
-
-#donate-button-container {
-    height: 50%;
-    position: relative;
-}
-
-#donate-button-container > button {
-    position: relative;
-    top: 50%;
-    left: 40%;
-    height: 50px;
-    width: 100px;
-}
-
-.nav-bar > ul {
+    
+nav > ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     text-align: center;
+    color: white;
+    display: inline-block;
+    border: 5px solid red;
+    
 }
 
-li {
+nav ul li {
     display: inline;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-li a {
+nav li a {
     text-decoration: none;
     color: inherit;
+}
+
+nav button {
+    display: inline-block;
 }
 
 #content {
