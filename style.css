@@ -10,13 +10,12 @@ body {
 
 
 header {
-    background-color: #9D71E8;
+    background-color: #5603AD;
     height: 100px;
     position: relative;
 }
 
 header div {
-    border: 2px solid green;
     display: inline-block;
     height: 100px;
     width: 20%;
@@ -25,16 +24,12 @@ header div {
     text-align: center;
 }
 
-header div#button-container {
-    left: 80%;
-}
 
 header div img {
     height: 90px;
 }
 
 nav {
-    border: 2px solid red;
     display: inline-block;
     height: 100px;
     width: 60%;
@@ -44,9 +39,8 @@ nav {
     align-content: center;
 }
 
-    
+
 header nav > ul {
-    border: 2px solid pink;
     list-style-type: none;
     margin: 0;
     padding: 15px 15px;
@@ -64,8 +58,14 @@ nav li a {
     color: inherit;
 }
 
-nav button {
-    display: inline-block;
+header div#header-icons {
+    left: 80%;
+}
+
+header div i {
+    padding: 0px 15px;
+    font-size: 25px;
+    color: white;
 }
 
 #content {
