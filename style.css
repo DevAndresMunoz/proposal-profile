@@ -6,11 +6,12 @@ body {
     padding: 0;
     margin: 0;
     font-family: Lato;
+    background-color: #ffffffe7;
 }
 
 
 header {
-    background-color: #5603AD;
+    background-color: #6903d6;
     height: 100px;
     position: relative;
 }
@@ -23,7 +24,6 @@ header div {
     align-content: center;
     text-align: center;
 }
-
 
 header div img {
     height: 90px;
@@ -62,19 +62,23 @@ header div#header-icons {
     left: 80%;
 }
 
-header div i {
-    padding: 0px 15px;
+header div#header-icons a {
+    padding: 0px 20px;
     font-size: 25px;
     color: white;
 }
 
-#content {
+body > div {
     text-align: center;
 }
 
-#name-wrapper {
+div#pet-name-container {
     margin: 50px;
     font-size: 25pt;
+}
+
+div span {
+    color: #5603AD;
 }
 
 #pet-info-list {
