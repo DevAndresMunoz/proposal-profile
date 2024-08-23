@@ -44,7 +44,7 @@ header nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 15px 15px;
-    color: white;
+    color: #fffffff6;
     display: inline-block;    
 }
 
@@ -65,7 +65,7 @@ header div#header-icons {
 header div#header-icons a {
     padding: 0px 20px;
     font-size: 25px;
-    color: white;
+    color: #fffffff6;
 }
 
 body > div {
@@ -81,14 +81,31 @@ div span {
     color: #5603AD;
 }
 
-#pet-info-list {
-    display: inline-block;
+#pet-info-wrapper {
+    border: 2px solid red;
+    height: 250px;
     width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 25px;
+}
+
+#pet-info-list {
+    border: 2px solid green;
+    width: 48%;
+    height: 100%;
+    float: left;
 }
 
 #pet-info-description {
+    border: 2px solid blue;
+    width: 48%;
+    height: 100%;
+    float: right;
+}
+#content-cta-wrapper {
+    border: 2px solid yellow;
     display: inline-block;
-    width: 50%; 
 }
 
 footer {
