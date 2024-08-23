@@ -80,6 +80,22 @@ div span {
     color: #5603AD;
 }
 
+#pet-image-wrapper img {
+    width:590px;
+    height: auto;
+}
+
+#additional-image-wrapper {
+    display: inline-block;
+    width: 600px;
+}
+
+#additional-image-wrapper img {
+    width:112px;    
+    height: auto;
+    margin: 5px 2px;
+}
+
 #pet-info-wrapper {
     height: 250px;
     width: 50%;
