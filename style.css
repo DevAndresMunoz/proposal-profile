@@ -18,20 +18,20 @@ header {
 
 header div {
     display: inline-block;
-    height: 100px;
+    height: inherit;
     width: 20%;
     position: absolute;
     align-content: center;
     text-align: center;
 }
 
-header div img {
-    height: 90px;
+.logo {
+    height: 100px;
 }
 
 nav {
     display: inline-block;
-    height: 100px;
+    height: inherit;
     width: 60%;
     text-align: center;
     position: absolute;
@@ -41,7 +41,6 @@ nav {
 
 
 header nav > ul {
-    list-style-type: none;
     margin: 0;
     padding: 15px 15px;
     color: #fffffff6;
@@ -58,11 +57,11 @@ nav li a {
     color: inherit;
 }
 
-header div#header-icons {
+.icons {
     left: 80%;
 }
 
-header div#header-icons a {
+.icons a {
     padding: 0px 20px;
     font-size: 25px;
     color: #fffffff6;
@@ -122,12 +121,64 @@ div span {
     background-color:#5603AD;
     font-size: 16pt;
     color:#ffffffe7;
-    padding: 15px 20px;
+    padding: 15px 40px;
     border-radius: 25px;
-    margin: 0px 15px;
+    margin: 0px 50px;
+}
+
+#sponsor-section {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#sponsor-section > h3 {
+    font-size: 18pt;
+}
+
+#sponsor-section > img {
+    padding: 20px 5px;
 }
 
 footer {
-    text-align: center;
+    background-color: #5603AD;
+    color: white;
+    height: 120px;
+    padding: 0;
+    margin: 0;
 }
 
+#footer-logo-wrapper {
+    display: inline-block;
+    height: inherit;
+    width: 20%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+#business-info {
+    display: inline-block;
+    position: absolute;
+    height: inherit;
+    width: 60%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#business-info > ul > li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+footer > .icons {
+    display: inline-block;
+    height: inherit;
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    text-align: center;
+    align-content: center;
+}
