@@ -82,27 +82,36 @@ div span {
 }
 
 #pet-info-wrapper {
-    border: 2px solid red;
     height: 250px;
     width: 50%;
     position: relative;
     left: 25%;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #pet-info-list {
-    border: 2px solid green;
+    border: 2px solid #8367C7;
     width: 48%;
     height: 100%;
     float: left;
+    border-radius: 25px;
+    align-content: center;
 }
 
 #pet-info-description {
-    border: 2px solid blue;
+    border: 2px solid #8367C7;
     width: 48%;
     height: 100%;
     float: right;
+    border-radius: 25px;
+    align-content: center;
 }
+
+#pet-info-description p {
+    margin: 15px 25px 20px;
+}
+
 #content-cta-wrapper {
     border: 2px solid yellow;
     display: inline-block;
