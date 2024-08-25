@@ -5,10 +5,14 @@ body {
     background-color: #ffffffe7;
 }
 
+/* header styling */
+
 header {
     background-color: #6903d6;
     height: 100px;
 }
+
+/* logo wrapper styling for both header and footer */
 
 .logo-wrapper {
     display: inline-block;
@@ -22,6 +26,8 @@ header {
     height: 100px;
 }
 
+/* navigation bar styling */
+
 nav {
     display: inline-block;
     height: inherit;
@@ -31,7 +37,6 @@ nav {
     left: 20%;  
     align-content: center;
 }
-
 
 nav > ul {
     margin: 0;
@@ -49,6 +54,8 @@ nav li a {
     color: inherit;
 }
 
+/* styling for icons in both header and footer */
+
 .icons {
     display: inline-block;
     height: inherit;
@@ -64,6 +71,8 @@ nav li a {
     font-size: 25px;
     color: #fffffff6;
 }
+
+/* styling for main body of the page */
 
 body > div {
     text-align: center;
@@ -92,6 +101,8 @@ img#main-image {
 .small-images {
     width: 19.5%;
 }
+
+/* styling for pet information */
 
 #pet-info-wrapper {
     height: 250px;
@@ -122,6 +133,8 @@ section.pet-info {
     margin: 15px 25px 20px;
 }
 
+/* styling for call-to-action buttons */
+
 #content-cta-wrapper {
     margin: 35px 0px;
     padding: 15px 15px;
@@ -136,6 +149,8 @@ section.pet-info {
     margin: 0px 50px;
 }
 
+/* styling for sponsor logo section */
+
 #sponsor-section {
     padding-top: 20px;
     padding-bottom: 50px;
@@ -148,6 +163,8 @@ section.pet-info {
 .sponsor-logos {
     padding: 20px 5px;
 }
+
+/* styling for footer */
 
 footer {
     background-color: #5603AD;
@@ -173,6 +190,8 @@ footer {
     padding: 5px;
     margin: 0;
 }
+
+/* pseudo elements for business info icons */
 
 #address::before {
     font-family: "Font Awesome 5 Free";
