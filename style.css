@@ -174,3 +174,26 @@ footer {
     margin: 0;
 }
 
+#address::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content:"\f3c5";
+    color: white;
+    margin: 0 10px;
+}
+
+#phone::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content:"\f095";
+    color: white;
+    margin: 0 10px;
+}
+
+#hours::before {
+    font-family: "Font Awesome 5 Free";
+    content:"\f017";
+    color: white;
+    margin: 0 10px;
+}
+
