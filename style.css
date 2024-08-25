@@ -15,13 +15,12 @@ header {
     height: 100px;
 }
 
-header div {
+.logo-wrapper {
     display: inline-block;
     height: inherit;
     width: 20%;
-    position: absolute;
-    align-content: center;
     text-align: center;
+    align-content: center;
 }
 
 .logo {
@@ -56,6 +55,12 @@ nav li a {
 }
 
 .icons {
+    display: inline-block;
+    height: inherit;
+    width: 20%;
+    position: absolute;
+    text-align: center;
+    align-content: center;
     left: 80%;
 }
 
@@ -129,7 +134,6 @@ section.pet-info {
 }
 
 .cta-buttons {
-    border:2px solid #C2F8CB;
     background-color:#5603AD;
     font-size: 16pt;
     color:#ffffffe7;
@@ -159,16 +163,6 @@ footer {
     margin: 0;
 }
 
-#footer-logo-wrapper {
-    display: inline-block;
-    height: inherit;
-    width: 20%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    align-content: center;
-}
-
 #business-info {
     display: inline-block;
     position: absolute;
@@ -185,12 +179,3 @@ footer {
     margin: 0;
 }
 
-footer > .icons {
-    display: inline-block;
-    height: inherit;
-    width: 20%;
-    position: absolute;
-    left: 80%;
-    text-align: center;
-    align-content: center;
-}
