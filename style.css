@@ -13,7 +13,6 @@ body {
 header {
     background-color: #6903d6;
     height: 100px;
-    position: relative;
 }
 
 header div {
@@ -44,7 +43,6 @@ header nav > ul {
     margin: 0;
     padding: 15px 15px;
     color: #fffffff6;
-    display: inline-block;    
 }
 
 header nav ul li {
