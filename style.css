@@ -75,8 +75,11 @@ h2 {
     color: #5603AD;
 }
 
-#pet-image-wrapper img {
-    width:590px;
+img#main-image {
+    display: block;
+    position: relative;
+    left: 35%;
+    width: 30%;
     height: auto;
 }
 
