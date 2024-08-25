@@ -78,20 +78,20 @@ h2 {
 img#main-image {
     display: block;
     position: relative;
-    left: 35%;
-    width: 30%;
+    width: 40%;
     height: auto;
+    left: 30%;
 }
 
 #additional-image-wrapper {
     display: inline-block;
-    width: 600px;
+    width: 40%;
+    margin-top: 5px;
+    padding: 0;
 }
 
 #additional-image-wrapper img {
-    width:112px;    
-    height: auto;
-    margin: 5px 2px;
+    width: 19.6%;
 }
 
 #pet-info-wrapper {
