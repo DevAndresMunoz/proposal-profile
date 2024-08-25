@@ -87,11 +87,10 @@ img#main-image {
     display: inline-block;
     width: 40%;
     margin-top: 5px;
-    padding: 0;
 }
 
-#additional-image-wrapper img {
-    width: 19.6%;
+.small-images {
+    width: 19.5%;
 }
 
 #pet-info-wrapper {
@@ -146,7 +145,7 @@ section.pet-info {
     font-size: 18pt;
 }
 
-#sponsor-section > img {
+.sponsor-logos {
     padding: 20px 5px;
 }
 
